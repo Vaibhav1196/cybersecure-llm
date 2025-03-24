@@ -35,7 +35,7 @@ This project serves as a demonstration of how to **fine-tune an LLM** for threat
 
 ## 🔧 Step-by-Step Guide
 
-### [CHECKOUT THE cyberAI.ipynb FILE FOR THE COMPLETE CODE]
+### [CHECKOUT THE cyberAI.ipynb FILE FOR THE COMPLETE code]
 
 ### 📥 1. Install Dependencies
 
@@ -204,6 +204,10 @@ login("hf_xxxxxxxxxxxxxxxxxxxx")  # Replace with your token
 - Click **Create Repository**
 
 ### 5️⃣ Upload Your Model to Hugging Face
+
+- Remember for this we must have downloded our finetuned model on our local system
+- Now you can use the "load_model_to_huggingface.py" to load the model to Huggingface
+- Change the repository name in this code to upload to your corresponding repository
 
 ```python
 from huggingface_hub import HfApi
